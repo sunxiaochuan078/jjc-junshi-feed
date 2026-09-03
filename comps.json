@@ -1,161 +1,509 @@
 {
-  "meta": {
-    "source": "jjc-junshi-feed",
-    "generated": "2026-09-03",
-    "seasons": [
-      "s18",
-      "s16"
-    ],
-    "latest": "s18",
-    "note": "按赛季分版的金铲铲阵容投喂仓。占位示例数据，真值待可信数据源填。结构:每个阵容带 season 字段(s18/s16/…)。"
+ "meta": {
+  "source": "jcc.np5.top (真实当前赛季)",
+  "season": "s18",
+  "display_name": "S18 自然之力",
+  "game_version": "18.18.1c",
+  "version_id": "s18__18_18_1c",
+  "effective_at": "2026-09-03",
+  "status": "active",
+  "seasons": [
+   "s18"
+  ],
+  "latest": "s18",
+  "note": "真实S18阵容骨架(由真实羁绊生成)。roster 见 roster_s18.json(74棋子/258海克斯)。"
+ },
+ "comps": [
+  {
+   "season": "s18",
+   "name": "峡谷野怪主阵",
+   "score": 31.6,
+   "playstyle": "运营",
+   "phase_to_play": "10羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "绯红树怪",
+    "苍蓝哨戒",
+    "峡谷迅捷蟹",
+    "暗影狼",
+    "魔沼蛙",
+    "远古石甲虫",
+    "深红锋喙鸟",
+    "苍蓝雕纹魔像",
+    "绯红印记树怪",
+    "远古巨龙"
+   ],
+   "carry": "远古巨龙",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 峡谷野怪 激活10人,总费用27。羁绊类别:origin"
   },
-  "comps": [
-    {
-      "season": "s18",
-      "name": "裁决天使凯尔",
-      "score": 92,
-      "playstyle": "运营",
-      "phase_to_play": "4阶段后成型",
-      "difficulty": 3,
-      "hp_floor": 35,
-      "core_units": [
-        "凯尔",
-        "盖伦",
-        "拉克丝",
-        "莫甘娜",
-        "波比"
-      ],
-      "carry": "凯尔",
-      "core_items": {
-        "凯尔": [
-          "羊刀",
-          "法爆",
-          "正义"
-        ]
-      },
-      "note": "S18占位示例"
-    },
-    {
-      "season": "s18",
-      "name": "山海厄斐琉斯",
-      "score": 90,
-      "playstyle": "运营",
-      "phase_to_play": "7级2张锁，8级D三星",
-      "difficulty": 3,
-      "hp_floor": 40,
-      "core_units": [
-        "厄斐琉斯",
-        "瑟提",
-        "霞",
-        "洛",
-        "锤石"
-      ],
-      "carry": "厄斐琉斯",
-      "core_items": {
-        "厄斐琉斯": [
-          "羊刀",
-          "无尽",
-          "水银"
-        ]
-      },
-      "note": "S18占位示例"
-    },
-    {
-      "season": "s18",
-      "name": "九五至尊",
-      "score": 95,
-      "playstyle": "九五",
-      "phase_to_play": "9级高费主C",
-      "difficulty": 5,
-      "hp_floor": 50,
-      "core_units": [
-        "泽拉斯",
-        "塞拉斯",
-        "卡兹克",
-        "乌迪尔",
-        "千珏"
-      ],
-      "carry": "泽拉斯",
-      "core_items": {
-        "泽拉斯": [
-          "法爆",
-          "巨杀",
-          "蓝buff"
-        ]
-      },
-      "note": "S18占位示例"
-    },
-    {
-      "season": "s18",
-      "name": "八斗士腕豪",
-      "score": 78,
-      "playstyle": "赌狗",
-      "phase_to_play": "前期抢斗士",
-      "difficulty": 2,
-      "hp_floor": 20,
-      "core_units": [
-        "腕豪",
-        "塔姆",
-        "慎",
-        "布隆",
-        "奥恩"
-      ],
-      "carry": "腕豪",
-      "core_items": {
-        "腕豪": [
-          "无尽",
-          "巨杀",
-          "饮血"
-        ]
-      },
-      "note": "S18占位示例"
-    },
-    {
-      "season": "s16",
-      "name": "暗星烬",
-      "score": 74,
-      "playstyle": "运营",
-      "phase_to_play": "7级抽烬",
-      "difficulty": 3,
-      "hp_floor": 35,
-      "core_units": [
-        "烬",
-        "卡萨丁",
-        "薇古丝",
-        "瑞兹"
-      ],
-      "carry": "烬",
-      "core_items": {
-        "烬": [
-          "无尽",
-          "破甲",
-          "复活甲"
-        ]
-      },
-      "note": "S16占位示例(旧赛季)"
-    },
-    {
-      "season": "s16",
-      "name": "巨像德莱文",
-      "score": 70,
-      "playstyle": "赌狗",
-      "phase_to_play": "低费赌狗",
-      "difficulty": 2,
-      "hp_floor": 25,
-      "core_units": [
-        "德莱文",
-        "卡密尔",
-        "诺手"
-      ],
-      "carry": "德莱文",
-      "core_items": {
-        "德莱文": [
-          "饮血",
-          "无尽",
-          "飓风"
-        ]
-      },
-      "note": "S16占位示例(旧赛季)"
-    }
-  ]
+  {
+   "season": "s18",
+   "name": "永恒之森主阵",
+   "score": 23.1,
+   "playstyle": "运营",
+   "phase_to_play": "7羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "奥恩",
+    "霞",
+    "阿利斯塔",
+    "乐芙兰",
+    "赫卡里姆",
+    "伊泽瑞尔",
+    "纳尔"
+   ],
+   "carry": "纳尔",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 永恒之森 激活7人,总费用18。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "灵魂莲华主阵",
+   "score": 23.0,
+   "playstyle": "运营",
+   "phase_to_play": "7羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "卡尔玛",
+    "约里克",
+    "芸阿娜",
+    "易",
+    "瑟提",
+    "阿狸",
+    "艾希"
+   ],
+   "carry": "艾希",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 灵魂莲华 激活7人,总费用20。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "黑荆棘主阵",
+   "score": 20.2,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "雷克塞",
+    "维迦",
+    "沃里克",
+    "阿兹尔",
+    "墨菲特",
+    "拉克丝"
+   ],
+   "carry": "拉克丝",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 黑荆棘 激活6人,总费用16。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "斗士主阵",
+   "score": 20.2,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "可酷伯",
+    "雷克塞",
+    "阿利斯塔",
+    "远古石甲虫",
+    "瑟提",
+    "纳尔"
+   ],
+   "carry": "纳尔",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 斗士 激活6人,总费用16。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "重装战士主阵",
+   "score": 20.1,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "洛",
+    "伊莉丝",
+    "赫卡里姆",
+    "黛安娜",
+    "苍蓝雕纹魔像",
+    "塔里克"
+   ],
+   "carry": "塔里克",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 重装战士 激活6人,总费用18。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "主宰主阵",
+   "score": 19.8,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "洛",
+    "约里克",
+    "峡谷迅捷蟹",
+    "瑟庄妮",
+    "蔚",
+    "阿木木"
+   ],
+   "carry": "阿木木",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 主宰 激活6人,总费用13。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "狂战士主阵",
+   "score": 19.8,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "卡蜜尔",
+    "阿卡丽",
+    "暗影狼",
+    "沃里克",
+    "黛安娜",
+    "绯红印记树怪"
+   ],
+   "carry": "绯红印记树怪",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 狂战士 激活6人,总费用13。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "护卫主阵",
+   "score": 19.7,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "奥恩",
+    "蕾欧娜",
+    "慎",
+    "费德提克",
+    "拉莫斯",
+    "莉莉娅"
+   ],
+   "carry": "莉莉娅",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 护卫 激活6人,总费用14。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "法师主阵",
+   "score": 19.7,
+   "playstyle": "运营",
+   "phase_to_play": "6羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "卡尔玛",
+    "维迦",
+    "乐芙兰",
+    "费德提克",
+    "卡西奥佩娅",
+    "阿狸"
+   ],
+   "carry": "阿狸",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 法师 激活6人,总费用14。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "地狱火主阵",
+   "score": 17.4,
+   "playstyle": "运营",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "阿卡丽",
+    "韦鲁斯",
+    "慎",
+    "阿木木",
+    "凯南"
+   ],
+   "carry": "凯南",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 地狱火 激活5人,总费用13。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "猎人主阵",
+   "score": 17.2,
+   "playstyle": "运营",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "绯红树怪",
+    "凯特琳",
+    "崔丝塔娜",
+    "希维尔",
+    "艾希"
+   ],
+   "carry": "艾希",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 猎人 激活5人,总费用15。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "魔女主阵",
+   "score": 16.8,
+   "playstyle": "运营",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "卡蜜尔",
+    "伊莉丝",
+    "凯特琳",
+    "卡西奥佩娅",
+    "莫甘娜"
+   ],
+   "carry": "莫甘娜",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 魔女 激活5人,总费用12。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "迅捷射手主阵",
+   "score": 16.8,
+   "playstyle": "运营",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "韦鲁斯",
+    "霞",
+    "凯尔",
+    "深红锋喙鸟",
+    "厄斐琉斯"
+   ],
+   "carry": "厄斐琉斯",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 迅捷射手 激活5人,总费用11。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "神谕主阵",
+   "score": 16.7,
+   "playstyle": "运营",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "苍蓝哨戒",
+    "提莫",
+    "克格莫",
+    "苍蓝雕纹魔像",
+    "莫甘娜"
+   ],
+   "carry": "苍蓝雕纹魔像",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 神谕 激活5人,总费用14。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "约德尔人主阵",
+   "score": 16.3,
+   "playstyle": "过渡",
+   "phase_to_play": "5羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "可酷伯",
+    "维迦",
+    "提莫",
+    "崔丝塔娜",
+    "拉莫斯"
+   ],
+   "carry": "崔丝塔娜",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 约德尔人 激活5人,总费用10。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "野兽之灵主阵",
+   "score": 14.2,
+   "playstyle": "运营",
+   "phase_to_play": "4羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "蔚",
+    "奈德丽",
+    "希维尔",
+    "拉克丝"
+   ],
+   "carry": "拉克丝",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 野兽之灵 激活4人,总费用16。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "月蚀骑士主阵",
+   "score": 14.2,
+   "playstyle": "运营",
+   "phase_to_play": "4羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "黛安娜",
+    "厄斐琉斯",
+    "拉露恩",
+    "拉克丝"
+   ],
+   "carry": "拉露恩",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 月蚀骑士 激活4人,总费用17。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "花仙子主阵",
+   "score": 14.0,
+   "playstyle": "运营",
+   "phase_to_play": "4羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "洛",
+    "霞",
+    "崔丝塔娜",
+    "莉莉娅"
+   ],
+   "carry": "莉莉娅",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 花仙子 激活4人,总费用9。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "裁决使主阵",
+   "score": 13.8,
+   "playstyle": "运营",
+   "phase_to_play": "4羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "芸阿娜",
+    "阿兹尔",
+    "伊泽瑞尔",
+    "索拉卡"
+   ],
+   "carry": "伊泽瑞尔",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 裁决使 激活4人,总费用13。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "魔战士主阵",
+   "score": 13.4,
+   "playstyle": "过渡",
+   "phase_to_play": "4羁绊激活",
+   "difficulty": 4,
+   "hp_floor": 35,
+   "core_units": [
+    "阿卡丽",
+    "魔沼蛙",
+    "易",
+    "克格莫"
+   ],
+   "carry": "易",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 魔战士 激活4人,总费用9。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "召唤师主阵",
+   "score": 10.5,
+   "playstyle": "过渡",
+   "phase_to_play": "3羁绊激活",
+   "difficulty": 2,
+   "hp_floor": 25,
+   "core_units": [
+    "约里克",
+    "深红锋喙鸟",
+    "阿兹尔"
+   ],
+   "carry": "深红锋喙鸟",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 召唤师 激活3人,总费用7。羁绊类别:class"
+  },
+  {
+   "season": "s18",
+   "name": "日蚀骑士主阵",
+   "score": 9.9,
+   "playstyle": "赌狗",
+   "phase_to_play": "3羁绊激活",
+   "difficulty": 2,
+   "hp_floor": 25,
+   "core_units": [
+    "蕾欧娜",
+    "瑟庄妮",
+    "凯尔"
+   ],
+   "carry": "瑟庄妮",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 日蚀骑士 激活3人,总费用5。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "绝命花妖主阵",
+   "score": 8.1,
+   "playstyle": "运营",
+   "phase_to_play": "2羁绊激活",
+   "difficulty": 2,
+   "hp_floor": 25,
+   "core_units": [
+    "费德提克",
+    "索拉卡"
+   ],
+   "carry": "索拉卡",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 绝命花妖 激活2人,总费用7。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "宿敌主阵",
+   "score": 7.5,
+   "playstyle": "过渡",
+   "phase_to_play": "2羁绊激活",
+   "difficulty": 2,
+   "hp_floor": 25,
+   "core_units": [
+    "雷恩加尔",
+    "卡兹克"
+   ],
+   "carry": "雷恩加尔",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 宿敌 激活2人,总费用6。羁绊类别:origin"
+  },
+  {
+   "season": "s18",
+   "name": "大元素使主阵",
+   "score": 5.8,
+   "playstyle": "运营",
+   "phase_to_play": "1羁绊激活",
+   "difficulty": 2,
+   "hp_floor": 25,
+   "core_units": [
+    "拉克丝"
+   ],
+   "carry": "拉克丝",
+   "core_items": {},
+   "note": "源自真实S18(s18__18_18_1c): 大元素使 激活1人,总费用5。羁绊类别:origin"
+  }
+ ]
 }
